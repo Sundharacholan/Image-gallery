@@ -1,0 +1,48 @@
+body{
+    background-color:#9EC8B9;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    height: 50px;
+    width: 98%;
+    background-color:#7b9999;
+    backdrop-filter: blur 10px;
+    text-align: center;
+    margin: 15px auto;
+    padding-top:5px;
+    color:black;
+    border-radius: 4px;
+}
+h2{
+    text-align: center;
+    margin: 0.5%;
+    color:092635;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container div{
+    width: 400px;
+    margin:12px;
+    flex-basis: 30%;
+    transition: 0.9s ease-in-out;
+
+}
+p{
+    color:#1B4242;
+    text-align: center;
+    width: 400px;
+}
+.photo{
+    height: 250px;
+    width: 400px;
+    border-radius:3%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
